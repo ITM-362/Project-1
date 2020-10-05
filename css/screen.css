@@ -2,77 +2,67 @@
 
 /* For mobile */
 
-@media screen and (min-width: 480px) {}
-
-body {
-    background-color: black;
-}
-
-input {
-    width: 100%;
-}
-
-#input {
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 1em;
-    margin-top: 0.75em;
-    color: red;
-    padding: 10px 20px;
-}
-
-h1 {
-    font-family: Montserrat;
-    text-align: center;
-    font-size: 4.5em;
-    color: red;
-}
-
-.instruction {
-    color: white;
-    text-align: center;
-    size: 0.75em;
-}
-
-#submit_button {
-    margin-top: 1em;
-}
-
-#email_input {
-    text-align: center;
-    color: grey;
-}
-
-#phone_input {
-    text-align: center;
-    color: grey;
-}
-
-#age {
-    text-align: center;
-    color: grey;
+@media screen and (min-width: 480px) {
+    body {
+        background-color: black;
+    }
+    input {
+        width: 100%;
+    }
+    #input {
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 1em;
+        margin-top: 0.75em;
+        color: red;
+        padding: 10px 20px;
+    }
+    h1 {
+        font-family: Montserrat;
+        text-align: center;
+        font-size: 4.5em;
+        color: red;
+    }
+    #detail {
+        color: white;
+        text-align: center;
+        size: 0.75em;
+    }
+    #submit_button {
+        margin-top: 1em;
+    }
+    #email_input {
+        text-align: center;
+        color: grey;
+    }
+    #phone_input {
+        text-align: center;
+        color: grey;
+    }
+    #age {
+        text-align: center;
+        color: grey;
+    }
 }
 
 
 /* For desktop */
 
-@media screen and (min-width: 992px) {}
-
-input {
-    width: 50%
-}
-
-.instruction {
-    color: white;
-    text-align: center;
-    size: 0.25em;
-}
-
-.input {
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 1em;
-    margin-top: 0.75em;
-    color: red;
-    padding: 20px 30px;
+@media screen and (min-width: 992px) {
+    input {
+        width: 50%
+    }
+    #detail {
+        color: white;
+        text-align: center;
+        size: 0.5em;
+    }
+    .input {
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 1em;
+        margin-top: 0.75em;
+        color: red;
+        padding: 20px 30px;
+    }
 }
