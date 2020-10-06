@@ -1,6 +1,8 @@
-// document.getElementById("submit_button").onclick = function() { confirm() };
-
 function confirm() {
-    document.getElementById("submit_button").innerHTML = "We will notify you when you iPhone ships";
+    var button = document.getElementById("submit_button");
+    document.addEventListener("click", function() {
+
+        alert("We will notify you when you iPhone ships")
+    });
 }
 window.addEventListener('load', init);
