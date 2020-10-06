@@ -71,7 +71,7 @@
         color: red;
         padding: 20px 30px;
     }
-    .submit_button {
-        align-items: center;
+    #submit_button {
+        align-self: center;
     }
 }
