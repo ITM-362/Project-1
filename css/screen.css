@@ -43,6 +43,9 @@
         text-align: center;
         color: grey;
     }
+    .submit_button {
+        align-items: center;
+    }
 }
 
 
@@ -68,7 +71,7 @@
         color: red;
         padding: 20px 30px;
     }
-    #button {
+    .submit_button {
         align-items: center;
     }
 }
