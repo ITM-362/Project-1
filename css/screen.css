@@ -8,12 +8,13 @@
     }
     input {
         width: 100%;
+        min-width: 200px;
     }
     #input {
         text-align: center;
         font-family: Montserrat;
         font-size: 1em;
-        margin-top: 0.75em;
+        margin-top: 0.25em;
         color: red;
         padding: 10px 20px;
     }
@@ -22,11 +23,12 @@
         text-align: center;
         font-size: 4.5em;
         color: red;
+        min-width: 150px;
     }
     #detail {
         color: white;
         text-align: center;
-        size: 0.75em;
+        size: 0.50em;
     }
     #submit_button {
         margin-top: 1em;
@@ -55,7 +57,7 @@
     #detail {
         color: white;
         text-align: center;
-        size: 0.5em;
+        font-size: 0.75em;
     }
     .input {
         text-align: center;
