@@ -1,3 +1,3 @@
-function successful_submission() {
-    window.location.href = 'https://itm-362.github.io/Project-1/success.html';
+function confirmation() {
+    confirm("We will notify you when you iPhone ships")
 }
