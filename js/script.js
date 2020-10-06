@@ -5,4 +5,4 @@ function confirm() {
         alert("We will notify you when you iPhone ships");
     });
 }
-window.addEventListener('load', init);
+window.addEventListener('load', confirm);
