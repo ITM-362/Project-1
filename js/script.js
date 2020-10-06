@@ -1,5 +1,5 @@
 function confirm() {
-    if (document.getElementsByClassName("input") = null) {
+    if (document.getElementsByClassName("input") != null) {
         var button = document.getElementById("submit_button");
         button.addEventListener("click", function() {
 
