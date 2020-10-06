@@ -43,9 +43,6 @@
         text-align: center;
         color: grey;
     }
-    .submit_button {
-        align-items: center;
-    }
 }
 
 
@@ -70,8 +67,5 @@
         margin-top: 0.75em;
         color: red;
         padding: 20px 30px;
-    }
-    #submit_button {
-        align-self: center;
     }
 }
