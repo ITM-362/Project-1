@@ -68,4 +68,7 @@
         color: red;
         padding: 20px 30px;
     }
+    #button {
+        align-items: center;
+    }
 }
