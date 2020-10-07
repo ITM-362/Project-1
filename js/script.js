@@ -8,7 +8,7 @@ $(document).ready(function() {
 
         if (!(email == '' || phone_number == '' || address == '' || age == '')) {
             $("#submitdata").empty();
-            $("#submitdata").append("Name: " + name + "<br/>Email: " + email + "<br/>Message: " + msg);
+            $("#submitdata").append("Email: " + email + "<br/>Phone number: " + phone_number + "<br/>Age: " + age);
         } else {
             alert("Please Fill All Fields.");
         }
