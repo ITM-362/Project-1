@@ -1,13 +1,32 @@
-function confirm() {
-    var button = document.getElementById("submit_button");
-    button.addEventListener("click", function() {
-        if (document.getElementsByClassName("input") != null) {
+$(document).ready(function() {
+    $("#send").click(function(e) {
+        e.preventDefault();
+        var email = $("#email").val();
+        var phone_number = $("#phone_number").val();
+        var address = $("#address").val();
+        var age = $("#age").val();
 
-            alert("We will notify you when your iPhone ships");
+        if (!(email == '' || phone_number == '' || address == '' || age == '')) {
+            $("#submitdata").empty();
+            $("#submitdata").append("Name: " + name + "<br/>Email: " + email + "<br/>Message: " + msg);
         } else {
-            alert("Please fill out the form");
+            alert("Please Fill All Fields.");
         }
-
     });
-}
-window.addEventListener('load', confirm);
+});
+Copy
+
+
+// function confirm() {
+
+// var button = document.getElementById("submit_button");
+// button.addEventListener("click", function() {
+// if (document.getElementsByClassName("input") != null) {
+// alert("We will notify you when your iPhone ships");
+// } else {
+// alert("Please fill out the form");
+// }
+
+// });
+// }
+// window.addEventListener('load', confirm);
