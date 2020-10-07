@@ -3,7 +3,7 @@
 /* For mobile */
 
 html {
-    background-image: url('media/iphone.jpg');
+    background-image: url('iphone.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -61,7 +61,7 @@ h1 {
 
 @media screen and (min-width: 480px) {
     html {
-        background-image: url('media/iphone.jpg');
+        background-image: url('iphone.jpg');
         background-repeat: no-repeat;
         background-size: 100% 100%;
         background-attachment: fixed;
@@ -112,7 +112,7 @@ h1 {
 
 @media screen and (min-width: 992px) {
     html {
-        background-image: url('media/iphone.jpg');
+        background-image: url('iphone.jpg');
         background-repeat: no-repeat;
         background-size: 50% 100%;
         background-attachment: fixed;
