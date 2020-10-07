@@ -2,8 +2,70 @@
 
 /* For mobile */
 
+html {
+    background-image: url('iphone.JPG');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: black;
+}
+
+input {
+    width: 100%;
+}
+
+#input {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1em;
+    margin-top: 0.25em;
+    color: grey;
+    padding: 10px 20px;
+}
+
+h1 {
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 2em;
+    color: grey;
+}
+
+#detail {
+    color: white;
+    text-align: center;
+    size: 0.50em;
+}
+
+#submit_button {
+    margin-top: 1em;
+}
+
+#email_input {
+    text-align: center;
+    color: grey;
+}
+
+#phone_input {
+    text-align: center;
+    color: grey;
+}
+
+#age {
+    text-align: center;
+    color: grey;
+}
+
+
+/* For tablets */
+
 @media screen and (min-width: 480px) {
-    body {
+    html {
+        background-image: url('iphone.JPG');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        background-position: center;
         background-color: black;
     }
     input {
@@ -14,14 +76,14 @@
         font-family: Montserrat;
         font-size: 1em;
         margin-top: 0.25em;
-        color: red;
+        color: grey;
         padding: 10px 20px;
     }
     h1 {
         font-family: Montserrat;
         text-align: center;
-        font-size: 4.5em;
-        color: red;
+        font-size: 2em;
+        color: grey;
     }
     #detail {
         color: white;
@@ -49,8 +111,22 @@
 /* For desktop */
 
 @media screen and (min-width: 992px) {
+    html {
+        background-image: url('iphone.JPG');
+        background-repeat: no-repeat;
+        background-size: 50% 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-color: black;
+    }
+    h1 {
+        font-family: Montserrat;
+        text-align: center;
+        font-size: 3em;
+        color: grey;
+    }
     input {
-        width: 50%
+        width: 38%
     }
     #detail {
         color: white;
@@ -65,7 +141,7 @@
         font-family: Montserrat;
         font-size: 1em;
         margin-top: 0.75em;
-        color: red;
+        color: grey;
         padding: 20px 30px;
     }
 }
