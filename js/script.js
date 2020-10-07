@@ -9,6 +9,7 @@ $(document).ready(function() {
         if (!(email == '' || phone_number == '' || address == '' || age == '')) {
             $("#submitdata").empty();
             $("#submitdata").append("Email: " + email + "<br/>Phone number: " + phone_number + "<br/>Age: " + age);
+            alert("We will notify you when your iPhone ships");
         } else {
             alert("Please Fill All Fields.");
         }
