@@ -13,42 +13,31 @@
 </head>
 
 <body>
-
     <h1 id="form_name">Get the new iPhone 13!</h1>
     <div>
         <p id="detail">Just fill out this form:</p>
     </div>
-
     <form method="post" action="#null" autocomplete="on">
+        <div class=type>Email:</div>
         <div class="input">
-            <label>Email:</label>
-            <p></p>
             <input type="email" name="email" class="input" id="email_input" placeholder="JohnDoe@gmail.com" required>
         </div>
-
+        <div class=type>Phone Number:</div>
         <div class="input">
-            <label>Phone Number:</label>
-            <p></p>
             <input type="tel" name="phone_number" class="input" id="phone_input" placeholder="###-###-####" required>
         </div>
-
+        <div class=type>Address:</div>
         <div class="input">
-            <label>Address:</label>
-            <p></p>
             <input type="text" name="address" class="input" id="address_input" required>
         </div>
-
+        <div class=type>Age:</div>
         <div class="input">
-            <label>Age:</label>
-            <p></p>
             <input type="number" name="age" class="input" id="number_input" required>
         </div>
-
         <div class="input">
-            <input onclick="buttonPress()" id="submit_button" type="submit" value="Submit">
+            <input onclick="buttonPress()" id="submit_button" type="submit" value="Claim your new iPhone!">
         </div>
     </form>
-
 </body>
 
 </html>
