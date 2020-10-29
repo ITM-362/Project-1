@@ -23,7 +23,7 @@ html {
 }
 
 input {
-    width: 90%;
+  width: 90%;
 }
 
 .type {
@@ -81,119 +81,119 @@ h1 {
 /* For tablets */
 
 @media screen and (min-width: 480px) {
-body {
-  font-family: 'Roboto', 'Source Sans Pro', sans-serif, Georgia;
-}
-html {
-  background-image: url('../media/iphone.jpg');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-color: black;
-}
-input {
-  width: 90%;
-}
-form {
-  margin: 0 auto;
-  width: 20em;
-    }
-.type {
-  justify-content: center;
-  text-align: center;
-  font-family: Montserrat;
-  font-size: 1em;
-  margin-top: 2em;
-  color: white;
-}
-.input {
-  text-align: center;
-  font-family: Montserrat;
-  font-size: 1em;
-  margin-top: 0.25em;
-  color: grey;
-  padding: 20px;
-}
-h1 {
-  font-family: Montserrat;
-  text-align: center;
-  font-size: 2em;
-  color: grey;
-}
-#detail {
-  color: white;
-  text-align: center;
-  font-size: 0.50em;
-}
-#submit_button {
-  margin-top: 1em;
-}
-#email_input {
-  text-align: center;
-  color: grey;
-}
-#phone_input {
-  text-align: center;
-  color: grey;
-}
-#age {
-  text-align: center;
-  color: grey;
-}
+  body {
+    font-family: 'Roboto', 'Source Sans Pro', sans-serif, Georgia;
+  }
+  html {
+    background-image: url('../media/iphone.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: black;
+  }
+  input {
+    width: 90%;
+  }
+  form {
+    margin: 0 auto;
+    width: 20em;
+  }
+  .type {
+    justify-content: center;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1em;
+    margin-top: 2em;
+    color: white;
+  }
+  .input {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1em;
+    margin-top: 0.25em;
+    color: grey;
+    padding: 20px;
+  }
+  h1 {
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 2em;
+    color: grey;
+  }
+  #detail {
+    color: white;
+    text-align: center;
+    font-size: 0.50em;
+  }
+  #submit_button {
+    margin-top: 1em;
+  }
+  #email_input {
+    text-align: center;
+    color: grey;
+  }
+  #phone_input {
+    text-align: center;
+    color: grey;
+  }
+  #age {
+    text-align: center;
+    color: grey;
+  }
 }
 
 
 /* For desktop */
 
 @media screen and (min-width: 1080px) {
-body {
-  font-family: 'Roboto', 'Source Sans Pro', sans-serif, Georgia;
-}
-html {
-  background-image: url('../media/iphone.jpg');
-  background-repeat: no-repeat;
-  background-size: 30% 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-color: black;
-}
-h1 {
-  font-family: Montserrat;
-  text-align: center;
-  font-size: 3em;
-  color: grey;
-}
-input {
-  width: 38%
-}
-form {
-  margin: 0 auto;
-  width: 100em;
-}
-#detail {
-  color: white;
-  text-align: center;
-  font-size: 0.75em;
-}
-#success {
-  color: white;
-}
-.input {
-  text-align: center;
-  font-family: Montserrat;
-  font-size: 1em;
-  margin-top: 0.75em;
-  color: grey;
-  padding: 20px 30px;
-  height: 2em;
-}
-.type {
-  justify-content: center;
-  text-align: center;
-  font-family: Montserrat;
-  font-size: 1em;
-  margin-top: 3em;
-  color: white;
-}
+  body {
+    font-family: 'Roboto', 'Source Sans Pro', sans-serif, Georgia;
+  }
+  html {
+    background-image: url('../media/iphone.jpg');
+    background-repeat: no-repeat;
+    background-size: 30% 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: black;
+  }
+  h1 {
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 3em;
+    color: grey;
+  }
+  input {
+    width: 38%
+  }
+  form {
+    margin: 0 auto;
+    width: 100em;
+  }
+  #detail {
+    color: white;
+    text-align: center;
+    font-size: 0.75em;
+  }
+  #success {
+    color: white;
+  }
+  .input {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1em;
+    margin-top: 0.75em;
+    color: grey;
+    padding: 20px 30px;
+    height: 2em;
+  }
+  .type {
+    justify-content: center;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1em;
+    margin-top: 3em;
+    color: white;
+  }
 }
